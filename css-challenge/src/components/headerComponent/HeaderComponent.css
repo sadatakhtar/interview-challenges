@@ -8,12 +8,13 @@
 .header_wrapper_greet { 
   width: 30%;
 }
-
-.bell{
-  
-}
-
-.header_wrapper_icon {
-  border-radius: 50px;
+.header_wrapper_icon{
+  background-color: rgb(94, 174, 224);
+  border-radius: 15px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }

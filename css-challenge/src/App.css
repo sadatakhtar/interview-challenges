@@ -26,4 +26,6 @@ body {
   flex-direction: column;
   font-weight: bold;
   padding: 40px;
+  width: 50%;
+  margin: auto;
 }
