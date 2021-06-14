@@ -1,0 +1,19 @@
+.header_wrapper{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_wrapper_greet { 
+  width: 30%;
+}
+
+.bell{
+  
+}
+
+.header_wrapper_icon {
+  border-radius: 50px;
+
+}
