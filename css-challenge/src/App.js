@@ -1,6 +1,7 @@
 import './App.css';
 import HeaderComponent from './components/headerComponent/HeaderComponent'
 import SearchBar from './components/searchBar/SearchBar'
+import HowYouFeel from './components/howYouFeel/HowYouFeel';
 
 
 
@@ -10,6 +11,7 @@ function App() {
       <div className="Container">
         <HeaderComponent  />
         <SearchBar />
+        <HowYouFeel />
       </div>
     </div>
   );

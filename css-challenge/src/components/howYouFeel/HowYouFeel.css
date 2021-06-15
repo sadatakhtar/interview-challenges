@@ -1,0 +1,11 @@
+.feel_container{
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.feel_subheading{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
