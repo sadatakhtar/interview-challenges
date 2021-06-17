@@ -1,11 +1,10 @@
-import React from 'react'
-import './SearchBar.css'
+import React from 'react';
+import './SearchBar.css';
 import { TextField } from '@material-ui/core';
 import SearchRoundedIcon from '@material-ui/icons/SearchRounded';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import IconButton from '@material-ui/core/IconButton';
 import InputLabel from '@material-ui/core/InputLabel';
-
 
 function SearchBar() {
   return (
@@ -14,12 +13,14 @@ function SearchBar() {
         <TextField
           id="outlined-basic"
           variant="standard"
-        
           placeholder="Search"
           InputProps={{
             startAdornment: (
               <InputAdornment position="end">
-                <SearchRoundedIcon fontSize="large" style={{color: "white"}}/>
+                <SearchRoundedIcon
+                  fontSize="large"
+                  style={{ color: 'white' }}
+                />
               </InputAdornment>
             ),
           }}
@@ -29,4 +30,4 @@ function SearchBar() {
   );
 }
 
-export default SearchBar
+export default SearchBar;

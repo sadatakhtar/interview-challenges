@@ -1,26 +1,19 @@
-.search_container{
+.search_container {
+  padding-bottom: 10px;
+  padding-top: 30px;
   width: 80%;
   margin: auto;
-  
 }
-.search_container_input{
+.search_container_input {
   width: 100%;
-  background-color: lightskyblue ;
+  background-color: rgb(70, 152, 204);
 }
-/* .search_container_input > input{
-  width: 100%;
-  height: 50px;
-  border-radius: 15px;
-  font-size: medium;
-  padding-left: 20px;
-  margin-top: 1rem;
-} */
 
-.search_container_input{
-  border-radius: 15px;
+.search_container_input {
+  border-radius: 25px;
   margin: auto;
 }
-#outlined-basic{
+#outlined-basic {
   font-size: large;
   width: 100%;
   height: 50px;

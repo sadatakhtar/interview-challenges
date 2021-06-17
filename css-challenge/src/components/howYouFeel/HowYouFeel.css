@@ -1,11 +1,34 @@
-.feel_container{
+.feel_container {
   margin-top: 2rem;
   width: 80%;
 }
 
-.feel_subheading{
-  
+.feel_subheading {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.feel_faces_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feel_emoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 152, 204);
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+}
+
+.feel_emoji_feeling {
+  text-align: center;
+}
+
+.feel_emoji_feeling > h3 {
+  font-size: 25px;
 }

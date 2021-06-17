@@ -1,20 +1,19 @@
-.header_wrapper{
+.header_wrapper {
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header_wrapper_greet { 
+.header_wrapper_greet {
   width: 30%;
 }
-.header_wrapper_icon{
-  background-color: rgb(94, 174, 224);
-  border-radius: 15px;
+.header_wrapper_icon {
+  background-color: rgb(70, 152, 204);
+  border-radius: 25px;
   width: 80px;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
