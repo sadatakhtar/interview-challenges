@@ -1,14 +1,11 @@
-import React from 'react'
-import './HeaderComponent.css'
-import  bell  from '../../assets/bellIcon.png'
+import React from 'react';
+import './HeaderComponent.css';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-
-
 
 function HeaderComponent() {
   return (
     <div className="header_wrapper">
-      <div className="header_wrapper_greet" >
+      <div className="header_wrapper_greet">
         <div className="header_wrapper_name">
           <h1>Hi, John!</h1>
         </div>
@@ -17,11 +14,10 @@ function HeaderComponent() {
         </div>
       </div>
       <div className="header_wrapper_icon">
-        <NotificationsIcon fontSize='large'/>
+        <NotificationsIcon fontSize="large" />
       </div>
     </div>
   );
 }
 
-export default HeaderComponent
-
+export default HeaderComponent;

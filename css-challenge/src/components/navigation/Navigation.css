@@ -1,0 +1,22 @@
+.navigation_container {
+  padding-top: 50px;
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.navigation_person_icon,
+.navigation_messages_icon,
+.navigation_squares_icon,
+.navigation_home_icon {
+  cursor: pointer;
+  color: lightgray;
+}
+.navigation_person_icon:hover,
+.navigation_messages_icon:hover,
+.navigation_squares_icon:hover,
+.navigation_home_icon:hover {
+  color: rgb(70, 152, 204);
+}

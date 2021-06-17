@@ -3,8 +3,6 @@ import './SearchBar.css';
 import { TextField } from '@material-ui/core';
 import SearchRoundedIcon from '@material-ui/icons/SearchRounded';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import IconButton from '@material-ui/core/IconButton';
-import InputLabel from '@material-ui/core/InputLabel';
 
 function SearchBar() {
   return (

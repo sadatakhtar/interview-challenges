@@ -1,9 +1,10 @@
-import React from 'react'
-import './Excercises.css'
+import React from 'react';
+import './Excercises.css';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonIcon from '@material-ui/icons/Person';
 import HearingIcon from '@material-ui/icons/Hearing';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
+import Navigation from '../navigation/Navigation';
 
 function Excercises() {
   return (
@@ -63,8 +64,9 @@ function Excercises() {
           </div>
         </div>
       </div>
+      <Navigation />
     </div>
   );
 }
 
-export default Excercises
+export default Excercises;

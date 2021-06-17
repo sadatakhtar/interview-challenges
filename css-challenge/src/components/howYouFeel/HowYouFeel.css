@@ -23,10 +23,12 @@
   width: 100px;
   height: 100px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .feel_emoji_feeling {
   text-align: center;
+  cursor: pointer;
 }
 
 .feel_emoji_feeling > h3 {
