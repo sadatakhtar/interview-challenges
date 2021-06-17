@@ -1,6 +1,6 @@
 .excercises_container {
   width: 100%;
-  background-color: whitesmoke;
+  background-color: rgb(243, 243, 243);
   border-radius: 25px;
   padding: 60px;
   margin: 40px;
@@ -16,6 +16,11 @@
   align-items: center;
   color: rgb(150, 135, 135);
   cursor: pointer;
+}
+.excercises_speaking:hover,
+.excercises_reading:hover,
+.excercises_listening:hover{
+  background-color: white;
 }
 .excercises_title {
   display: flex;
