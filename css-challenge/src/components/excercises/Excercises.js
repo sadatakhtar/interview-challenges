@@ -16,10 +16,17 @@ function Excercises() {
       <div className="excercises_skills">
         <div className="excersises_speaking">
           <div className="excersices_speaking_logo">
-            <FavoriteIcon fontSize='large'/>
+            <FavoriteIcon fontSize="large" />
           </div>
           <div className="excercises_speaking_title">
-            <h3>Speaking Skills</h3>
+            <div className="excercises_speaking_title_dots">
+              <h2>Speaking Skills</h2>
+              <div className="excercises_subheading_dots">
+                <FiberManualRecordIcon fontSize="small" />
+                <FiberManualRecordIcon fontSize="small" />
+              </div>
+            </div>
+
             <p>16 Excercises</p>
           </div>
         </div>
