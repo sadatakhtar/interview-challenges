@@ -1,0 +1,38 @@
+.excercises_container{
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  padding: 60px;
+  margin: 40px;
+}
+
+.excersises_speaking{
+  border: 1px solid rgb(143, 118, 118);
+  border-radius: 25px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: rgb(150, 135, 135);
+
+
+}
+.excercises_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.excersices_speaking_logo{
+  border: 1px solid green;
+  color: white;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  margin: 20px;
+}
