@@ -6,7 +6,7 @@
   margin: 40px;
 }
 
-.excersises_speaking {
+.excercises_speaking {
   border: 1px solid rgb(143, 118, 118);
   border-radius: 25px;
   width: 90%;
@@ -21,7 +21,7 @@
   align-items: center;
   color: rgb(3, 7, 29);
 }
-.excersices_speaking_logo {
+.excercises_speaking_logo {
   color: white;
   background-color: coral;
   display: flex;
@@ -43,4 +43,60 @@
 .excercises_speaking_title > p {
   color: rgb(161, 163, 173);
   margin-top: -10px;
+}
+
+.excercises_reading {
+  border: 1px solid rgb(143, 118, 118);
+  border-radius: 25px;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  color: rgb(150, 135, 135);
+}
+.excercises_reading_logo {
+  color: white;
+  background-color: rgb(70, 152, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.excercises_reading_title_dots {
+  color: rgb(3, 7, 29);
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.excercises_reading_title > p {
+  color: rgb(161, 163, 173);
+  margin-top: -10px;
+}
+
+.excercises_listening {
+  border: 1px solid rgb(143, 118, 118);
+  border-radius: 25px;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  color: rgb(150, 135, 135);
+}
+.excercises_listening_logo{
+  color: white;
+  background-color: hotpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  margin: 20px;
 }

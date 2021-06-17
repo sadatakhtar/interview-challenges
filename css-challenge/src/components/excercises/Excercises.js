@@ -1,6 +1,8 @@
 import React from 'react'
 import './Excercises.css'
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import PersonIcon from '@material-ui/icons/Person';
+import HearingIcon from '@material-ui/icons/Hearing';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 
 function Excercises() {
@@ -14,8 +16,8 @@ function Excercises() {
         </div>
       </div>
       <div className="excercises_skills">
-        <div className="excersises_speaking">
-          <div className="excersices_speaking_logo">
+        <div className="excercises_speaking">
+          <div className="excercises_speaking_logo">
             <FavoriteIcon fontSize="large" />
           </div>
           <div className="excercises_speaking_title">
@@ -30,13 +32,35 @@ function Excercises() {
             <p>16 Excercises</p>
           </div>
         </div>
-        <div className="excersises_reading">
-          <div className="excersices_reading_logo"></div>
-          <div className="excersices_reading_title"></div>
+        <div className="excercises_reading">
+          <div className="excercises_reading_logo">
+            <PersonIcon fontSize="large" />
+          </div>
+          <div className="excercises_reading_title">
+            <div className="excercises_reading_title_dots">
+              <h2>Reading Speed</h2>
+              <div className="excercises_subheading_dots">
+                <FiberManualRecordIcon fontSize="small" />
+                <FiberManualRecordIcon fontSize="small" />
+              </div>
+            </div>
+            <p>8 Excercises</p>
+          </div>
         </div>
         <div className="excercises_listening">
-          <div className="excersices_listening_logo"></div>
-          <div className="excersices_listening_title"></div>
+          <div className="excercises_listening_logo">
+            <HearingIcon fontSize="large" />
+          </div>
+          <div className="excercises_reading_title">
+            <div className="excercises_reading_title_dots">
+              <h2>Listening Skill</h2>
+              <div className="excercises_subheading_dots">
+                <FiberManualRecordIcon fontSize="small" />
+                <FiberManualRecordIcon fontSize="small" />
+              </div>
+            </div>
+            <p>5 Excercises</p>
+          </div>
         </div>
       </div>
     </div>
