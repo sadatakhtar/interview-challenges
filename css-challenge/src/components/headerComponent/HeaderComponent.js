@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './HeaderComponent.css';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import DateTime from '../dateTime/DateTime'
 
 function HeaderComponent() {
+  const [myDate, setMyDate] = useState(new Date());
+
   return (
     <div className="header_wrapper">
       <div className="header_wrapper_greet">
@@ -10,7 +13,7 @@ function HeaderComponent() {
           <h1>Hi, John!</h1>
         </div>
         <div className="header_wrapper_date">
-          <p>25 Jan, 2021</p>
+          <DateTime />
         </div>
       </div>
       <div className="header_wrapper_icon">
