@@ -30,8 +30,48 @@
 
  Your solution should not modify any of the function arguments
 */
+
+function randomDate(start, end) {
+  return new Date(
+    start.getTime() + Math.random() * (end.getTime() - start.getTime()),
+  );
+}
+
+const events = {
+  0: [
+    {
+      id: 001,
+      startsAt: randomDate(new Date(2021, 0, 1), new Date()),
+      endsAt: randomDate(new Date(2021, 0, 1), new Date()),
+      title: 'Daily walk',
+    },
+    {
+      id: 002,
+      startsAt: randomDate(new Date(2021, 0, 1), new Date()),
+      endsAt: randomDate(new Date(2021, 0, 1), new Date()),
+      title: 'Dinner time',
+    },
+    {
+      id: 003,
+      startsAt: randomDate(new Date(2021, 0, 1), new Date()),
+      endsAt: randomDate(new Date(2021, 0, 1), new Date()),
+      title: 'Movie time',
+    },
+  ],
+  1: [
+    {
+      id: 004,
+      startsAt: randomDate(new Date(2021, 0, 2), new Date()),
+      endsAt: randomDate(new Date(2021, 0, 2), new Date()),
+      title: 'evening run',
+    },
+  ],
+};
+
 const groupEventsByDay = (events) => {
-  return events;
+  for (const key in events) {
+    console.log(key + ':', events[key]);
+  }
 };
 
 /** 
@@ -72,3 +112,5 @@ const groupEventsByDay = (events) => {
 const moveEventToDay = (eventsByDay, id, toDay) => {
   return eventsByDay;
 };
+
+console.log(groupEventsByDay(events));
